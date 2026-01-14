@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav{
+    margin: auto;
+    width: 500px;
+    font-family:initial;
+}
+
+/*Quitar las viñetas*/
+ul li{
+    list-style: none;
+}
+
+/*Estilo para los menus*/
+ul li a{
+    text-decoration: none;
+    background-color: rgb(15, 13, 13);
+    color:rgb(179, 12, 12);
+    padding: 10px; 
+    display: block;
+    padding: 10px 15px;
+}
+
+ul li a:hover{
+    background-color: rgb(95, 18, 18);
+}
+
+body{
+    background-color: rgb(219, 213, 213);
+}
+
+ul>li{
+    float: left;
+    position: relative;
+}
+
+ul li ul li{
+    float: none;
+}
+
+UL LI UL{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+UL LI:hover>UL{
+    display: block;
+}
+
+UL LI UL LI{
+    position: relative;
+}
+
+ul li ul li ul{
+    right: -140px;
+    top: 8px;
+}
+header{
+    background-color:rgb(17, 17, 17);
+    display: flex;   /*para objetos uno a lado del otro*/
+    align-items: center;   /*PARA SCENTRAR  LOS OBJETOS EN EL ENCABEZADO*/
+    justify-content: space-around;
+    font-weight: 400;
+    font-weight: normal;
+}
+
+header nav{
+    display: flex;
+    gap:30px;
+}
+#inicio {
+  background-image: url('port.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inicio-texto {
+ /* background-color: rgba(255, 255, 255, 0.8);
+  padding: 25px 40px;
+  border: 2px solid rgb(44, 39, 40);
+  border-radius: 10px;*/
+  text-align: center;
+}
+
+.inicio-texto h1 {
+  font-size: 2em;
+  color: rgb(241, 237, 237);
+}
+
+.inicio-texto p {
+  font-style: italic;
+  color: rgb(230, 223, 224);
+  font-size: 1.2em;}
+
+  .hist img{  
+    height: 500px;
+    width: 1000px;
+    border-radius: 10px;
+    display: block;
+    max-width: 100%;
+    margin: 40px auto;
+    border-radius: 14px;
+  }
+  .hist p{
+    text-align: center;
+  padding: 10px 15px;
+  font-size: 20px;
+  }
+  .intro img{
+    height: 400px;
+    width: 1200px;
+    border-radius: 10px;
+    display: block;
+    max-width: 100%;
+    margin: 40px auto;
+    border-radius: 14px;
+  }
+  .intro p{
+    text-align: justify;
+  padding: 10px 15px;
+  font-size: 20px;
+  }
